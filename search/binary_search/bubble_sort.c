@@ -1,19 +1,4 @@
-#include <stdio.h>
-
-#define acending    1 
-#define decending   2 
-#define lenght 5 
-void printArray(int * arr , int size) ;
-void bubbleSort(int *arr ,int size , int mode) ; 
-
-int main (int argc ,char ** argv)
-{
-    int arr[lenght] = {11,22,6,4,9} ;
-    printArray(arr,lenght);
-    bubbleSort(arr,lenght,acending);
-    printArray(arr,lenght);
-    return 0 ;
-}
+#include"bubble_sort.h"
 
 void printArray(int * arr , int size) 
 {
